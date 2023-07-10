@@ -1,18 +1,27 @@
 body {
-	background: linear-gradient(to right, rgb(73, 27, 50), rgb(161, 0, 86), rgb(255, 126, 9));
-	text-align: center;
+	background-image: url(/assets/images/pattern2.png), linear-gradient(to right, rgb(73, 27, 50), rgb(161, 0, 86), rgb(255, 126, 9));
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 125%;
+	display: grid;
+	grid-template-columns: 1fr minmax(auto, 48ch) 1fr;
+}
+
+header {
+	grid-column: 2 / 3;
 }
 
 section#content {
-	max-width: 76em;
-	margin: auto;
+	grid-column: 2 / 3;
 }
 
 footer {
-	text-align: center
+	grid-column: 2 / 3;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 1em;
 }
 
 a, a:hover, a:visited {
