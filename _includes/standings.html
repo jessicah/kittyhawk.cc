@@ -1,0 +1,254 @@
+{% if include.riders %}
+{% assign riderResults = include.riders | sort: "points" | reverse | group_by: "category" | sort: "name" %}
+{% endif %}
+{% if include.teams %}
+{% assign teamResults = include.teams | sort: "points" | reverse | group_by: "category" | sort: "name" %}
+{% endif %}
+{% if include.sprints %}
+{% assign sprintResults = include.sprints | sort: "points" | reverse | group_by: "category" | sort: "name" %}
+{% endif %}
+{% if include.climbs %}
+{% assign climbResults = include.climbs | sort: "points" | reverse | group_by: "category" | sort: "name" %}
+{% endif %}
+<p>
+	{% if include.riders %}
+	Individual results:
+	{% assign count = 1 %}
+	{% for grade in riderResults %}
+	<a href='#{{ grade.name | downcase }}-grade-individual'>{{ grade.name}} Grade</a>
+	{% if count != riderResults.size %}|{% endif %}
+	{% assign count = count | plus: 1 %}
+	{% endfor %}
+	<br/>
+	{% endif %}
+	{% if include.teams %}
+	Team results:
+	{% assign count = 1 %}
+	{% for grade in teamResults %}
+	<a href='#{{ grade.name | downcase }}-grade-team'>{{ grade.name}} Grade</a>
+	{% if count != teamResults.size %}|{% endif %}
+	{% assign count = count | plus: 1 %}
+	{% endfor %}
+	<br/>
+	{% endif %}
+	{% if include.sprints %}
+	Team results:
+	{% assign count = 1 %}
+	{% for grade in sprintResults %}
+	<a href='#{{ grade.name | downcase }}-grade-sprint'>{{ grade.name}} Grade</a>
+	{% if count != sprintResults.size %}|{% endif %}
+	{% assign count = count | plus: 1 %}
+	{% endfor %}
+	<br/>
+	{% endif %}
+	{% if include.climbs %}
+	Team results:
+	{% assign count = 1 %}
+	{% for grade in climbResults %}
+	<a href='#{{ grade.name | downcase }}-grade-climb'>{{ grade.name}} Grade</a>
+	{% if count != climbResults.size %}|{% endif %}
+	{% assign count = count | plus: 1 %}
+	{% endfor %}
+	<br/>
+	{% endif %}
+</p>
+
+{% if include.riders %}
+<h3>Individual Results</h3>
+{% if riderResults.size < 1 %}
+<p>
+	No results yet.
+</p>
+{% else %}
+<table id='individual-results' class='collapse'>
+	{% for grade in riderResults %}
+	<thead class='{{ grade.name | downcase }}-grade' id='{{ grade.name | downcase }}-grade-individual'>
+			<tr>
+					<th colspan='4'>{{ grade.name | uppercase }} Grade</th>
+				</tr>
+			<tr>
+<th>Name</th><th style='text-align: right'>Team</th><th style='text-align: right'>E</th><th style='text-align: right'>P&nbsp;</th>
+</tr>
+</thead>
+<tbody class='{{ grade.name | downcase }}-grade'>
+	{% for item in grade.items %}
+		{% assign gold = item.podiums | remove: "silver" | remove: "bronze" %}
+		{% assign silver = item.podiums | remove: "gold" | remove: "bronze" %}
+		{% assign bronze = item.podiums | remove: "silver" | remove: "gold" %}
+		{% assign podiums = gold | append: " " | append: silver | append: " " | append: bronze | split: " " %}
+	<tr class='{% cycle "even", "odd" %}'>
+		<td>{{ item.name }}
+			{% for p in podiums reversed %}
+				<i class='fas fa-trophy {{ p }}'></i>
+			{% endfor %}
+			{% for i in (1..item.upgrades) %}
+				<i class='fas fa-star'></i>
+			{% endfor %}
+		</td>
+			{% assign tnamesize = item.tname.size %}
+			{% if tnamesize > 0 %}
+				{% assign border = item.tbd %}
+				{% if border == "ffffff" %}
+					<td class='team-badge'><span style='background-color: #{{item.tbc}}; color:#{{item.tc}}; border-color: #{{item.tbc}}'>{{ item.tname }}</span></td>
+				{% else %}
+					<td class='team-badge'><span style='background-color: #{{item.tbc}}; color:#{{item.tc}}; border-color: #{{item.tbd}}'>{{ item.tname }}</span></td>
+				{% endif %}
+			{% else %}
+			<td>&nbsp;</td>
+			{% endif %}
+			<td class='events'>{{ item.events }}</td>
+			<td class='points'>{{ item.points }}</td>
+	</tr>
+	{% endfor %}
+</tbody>
+{% endfor %}
+</table>
+{% endif %}
+{% else %}
+<p>
+	No results yet.
+</p>
+{% endif %}
+
+{% if include.teams %}
+<h3>Team Results</h3>
+{% if teamResults.size < 1 %}
+<p>
+	No results yet.
+</p>
+{% else %}
+<table id='team-results' class='collapse'>
+{% for grade in teamResults %}
+		<thead class='{{ grade.name | downcase }}-grade' id='{{ grade.name | downcase }}-grade-team'>
+		<tr>
+			<th colspan='3'>{{ grade.name | uppercase }} Grade</th>
+		</tr>
+	<tr>
+<th>Team</th><th style='text-align: right'>Results</th><th style='text-align: right'>Points</th>
+</tr>
+</thead>
+<tbody class='{{ grade.name | downcase }}-grade'>
+	{% for item in grade.items %}
+	<tr class='{% cycle "even", "odd" %}'>
+		{% assign tnamesize = item.tname.size %}
+		{% assign border = item.tbd %}
+		{% if border == "ffffff" %}
+			<td class='team-badge'><span style='background-color: {{item.tbc}}; color:{{item.tc}}; border-color: {{item.tbc}}'>{{ item.tname }}</span></td>
+		{% else %}
+			<td class='team-badge'><span style='background-color: {{item.tbc}}; color:{{item.tc}}; border-color: {{item.tbd}}'>{{ item.tname }}</span></td>
+		{% endif %}
+	<td class='events'>{{ item.events }}</td>
+	<td class='points'>{{ item.points }}</td>
+	</tr>
+	{% endfor %}
+</tbody>
+{% endfor %}
+</table>
+{% endif %}
+{% endif %}
+
+{% if include.sprints %}
+<h3>Sprint Results</h3>
+{% if sprintResults.size < 1 %}
+<p>
+	No results yet.
+</p>
+{% else %}
+<table id='sprint-results' class='collapse'>
+	{% for grade in sprintResults %}
+	<thead class='{{ grade.name | downcase }}-grade' id='{{ grade.name | downcase }}-grade-sprint'>
+			<tr>
+					<th colspan='4'>{{ grade.name | uppercase }} Grade</th>
+				</tr>
+			<tr>
+<th>Name</th><th style='text-align: right'>Team</th><th style='text-align: center'>E</th><th style='text-align: center'>P</th>
+</tr>
+</thead>
+<tbody class='{{ grade.name | downcase }}-grade'>
+	{% for item in grade.items %}
+		{% assign gold = item.podiums | remove: "silver" | remove: "bronze" %}
+		{% assign silver = item.podiums | remove: "gold" | remove: "bronze" %}
+		{% assign bronze = item.podiums | remove: "silver" | remove: "gold" %}
+		{% assign podiums = gold | append: " " | append: silver | append: " " | append: bronze | split: " " %}
+	<tr class='{% cycle "even", "odd" %}'>
+		<td>{{ item.name }}
+			{% for p in podiums reversed %}
+				<i class='fas fa-trophy {{ p }}'></i>
+			{% endfor %}
+			{% for i in (1..item.upgrades) %}
+				<i class='fas fa-star'></i>
+			{% endfor %}
+		</td>
+			{% assign tnamesize = item.tname.size %}
+			{% if tnamesize > 0 %}
+				{% assign border = item.tbd %}
+				{% if border == "ffffff" %}
+					<td class='team-badge'><span style='background-color: {{item.tbc}}; color:{{item.tc}}; border-color: {{item.tbc}}'>{{ item.tname }}</span></td>
+				{% else %}
+					<td class='team-badge'><span style='background-color: {{item.tbc}}; color:{{item.tc}}; border-color: {{item.tbd}}'>{{ item.tname }}</span></td>
+				{% endif %}
+			{% else %}
+			<td>&nbsp;</td>
+			{% endif %}
+			<td class='events'>{{ item.events }}</td>
+			<td class='points'>{{ item.points }}</td>
+	</tr>
+	{% endfor %}
+</tbody>
+{% endfor %}
+</table>
+{% endif %}
+{% endif %}
+
+{% if include.climbs %}
+<h3>Climb Results</h3>
+{% if climbResults.size < 1 %}
+<p>
+	No results yet.
+</p>
+{% else %}
+<table id='climb-results' class='collapse'>
+	{% for grade in climbResults %}
+	<thead class='{{ grade.name | downcase }}-grade' id='{{ grade.name | downcase }}-grade-climb'>
+			<tr>
+					<th colspan='4'>{{ grade.name | uppercase }} Grade</th>
+				</tr>
+			<tr>
+<th>Name</th><th style='text-align: right'>Team</th><th style='text-align: center'>E</th><th style='text-align: center'>P</th>
+</tr>
+</thead>
+<tbody class='{{ grade.name | downcase }}-grade'>
+	{% for item in grade.items %}
+		{% assign gold = item.podiums | remove: "silver" | remove: "bronze" %}
+		{% assign silver = item.podiums | remove: "gold" | remove: "bronze" %}
+		{% assign bronze = item.podiums | remove: "silver" | remove: "gold" %}
+		{% assign podiums = gold | append: " " | append: silver | append: " " | append: bronze | split: " " %}
+	<tr class='{% cycle "even", "odd" %}'>
+		<td>{{ item.name }}
+			{% for p in podiums reversed %}
+				<i class='fas fa-trophy {{ p }}'></i>
+			{% endfor %}
+			{% for i in (1..item.upgrades) %}
+				<i class='fas fa-star'></i>
+			{% endfor %}
+		</td>
+			{% assign tnamesize = item.tname.size %}
+			{% if tnamesize > 0 %}
+				{% assign border = item.tbd %}
+				{% if border == "ffffff" %}
+					<td class='team-badge'><span style='background-color: #{{item.tbc}}; color:#{{item.tc}}; border-color: #{{item.tbc}}'>{{ item.tname }}</span></td>
+				{% else %}
+					<td class='team-badge'><span style='background-color: #{{item.tbc}}; color:#{{item.tc}}; border-color: #{{item.tbd}}'>{{ item.tname }}</span></td>
+				{% endif %}
+			{% else %}
+			<td>&nbsp;</td>
+			{% endif %}
+			<td class='events'>{{ item.events }}</td>
+			<td class='points'>{{ item.points }}</td>
+	</tr>
+	{% endfor %}
+</tbody>
+{% endfor %}
+</table>
+{% endif %}
+{% endif %}

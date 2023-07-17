@@ -1,0 +1,100 @@
+table {
+	width: 100%;
+  }
+
+  /* standings CSS */
+  .even {
+	background-color: rgb(214, 208, 208);
+	background-color: rgb(245, 214, 197);
+  }
+
+  .odd {
+	background-color: rgb(224, 218, 218);
+	background-color: rgb(245, 224, 207);
+  }
+
+  td {
+	padding-left: 1em;
+	padding-right: 1em;
+	color: black;
+  }
+
+  th {
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: left;
+  }
+
+  thead {
+	background-color: rgba(242, 120, 12, 1);
+  }
+
+  #individual-results td.team-badge {
+	text-align: right;
+  }
+
+  #team-results td.team-badge {
+	text-align: left;
+  }
+
+  td, th {
+	padding-top: 3px;
+  }
+
+  td.events {
+	text-align: right;
+  }
+
+  td.points {
+	text-align: right;
+  }
+
+  td.team-badge {
+	padding-top: 4px;
+	padding-bottom: 3px;
+	font-size: 90%;
+	line-height: 1.2em
+  }
+
+  td.team-badge>span {
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-style: solid;
+	border-width: 2px;
+  }
+
+  td:content {
+	border-style: solid;
+	border-width: 2px;
+  }
+
+  td.odd:content {
+	border-color: rgb(224, 218, 218);
+  }
+
+  td.even:content {
+	border-color: rgb(214, 208, 208);
+  }
+
+  .fa-star {
+	color: gold;
+  }
+
+  thead.a-grade>tr {
+	background-color: red;
+  }
+
+  thead.b-grade>tr {
+	background-color: green;
+  }
+
+  thead.c-grade>tr {
+	background-color: lightseagreen;
+  }
+
+  thead.d-grade>tr {
+	background-color: orange;
+  }
+
+  /* end of standings CSS */

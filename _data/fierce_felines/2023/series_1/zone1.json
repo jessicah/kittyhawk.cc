@@ -1,0 +1,44 @@
+[
+	{
+	  "category": "D",
+	  "events": 1,
+	  "points": 50,
+	  "tname": "Team RAVE",
+	  "tc": "000000",
+	  "tbc": "ccff00",
+	  "tbd": "ff69b4",
+	  "name": ". Daria",
+	  "flag": "us",
+	  "zwid": 888797,
+	  "podiums": "gold",
+	  "upgrades": 0
+	},
+	{
+	  "category": "D",
+	  "events": 1,
+	  "points": 47,
+	  "tname": "ART",
+	  "tc": "ffffff",
+	  "tbc": "2e2c2c",
+	  "tbd": "e33131",
+	  "name": "Julie Clark",
+	  "flag": "gb",
+	  "zwid": 2025471,
+	  "podiums": "silver",
+	  "upgrades": 0
+	},
+	{
+	  "category": "C",
+	  "events": 1,
+	  "points": 50,
+	  "tname": "Team RAVE",
+	  "tc": "000000",
+	  "tbc": "ccff00",
+	  "tbd": "ff69b4",
+	  "name": "Beth R",
+	  "flag": "us",
+	  "zwid": 2544421,
+	  "podiums": "gold",
+	  "upgrades": 0
+	}
+  ]

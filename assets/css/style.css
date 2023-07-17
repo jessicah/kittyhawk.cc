@@ -33,6 +33,7 @@ img#header {
 
 section#content {
 	grid-column: 2 / 3;
+	padding-bottom: 2em;
 }
 
 section#content > p {

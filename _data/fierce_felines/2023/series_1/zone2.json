@@ -1,0 +1,58 @@
+[
+	{
+	  "category": "B",
+	  "events": 1,
+	  "points": 50,
+	  "tname": "Wahoo Le Col ",
+	  "tc": "ffffff",
+	  "tbc": "c6007e",
+	  "tbd": "0095c8",
+	  "name": "Kerry Paul",
+	  "flag": "gb",
+	  "zwid": 115323,
+	  "podiums": "gold",
+	  "upgrades": 0
+	},
+	{
+	  "category": "B",
+	  "events": 1,
+	  "points": 47,
+	  "tname": "ZSUNR",
+	  "tc": "ffd808",
+	  "tbc": "1c1300",
+	  "tbd": "ffffff",
+	  "name": "Be\u0026aacute;ta Broderick ",
+	  "flag": "ie",
+	  "zwid": 2158559,
+	  "podiums": "silver",
+	  "upgrades": 0
+	},
+	{
+	  "category": "C",
+	  "events": 1,
+	  "points": 50,
+	  "tname": "eSRT",
+	  "tc": "40bad1",
+	  "tbc": "000000",
+	  "tbd": "ff00d4",
+	  "name": "Beatrice Rambaldi",
+	  "flag": "it",
+	  "zwid": 2227529,
+	  "podiums": "gold",
+	  "upgrades": 0
+	},
+	{
+	  "category": "C",
+	  "events": 1,
+	  "points": 47,
+	  "tname": "ATP ",
+	  "tc": "e0ffff",
+	  "tbc": "008b8b",
+	  "tbd": "00008b",
+	  "name": "Chrissy Oyler",
+	  "flag": "us",
+	  "zwid": 2389272,
+	  "podiums": "silver",
+	  "upgrades": 0
+	}
+  ]
