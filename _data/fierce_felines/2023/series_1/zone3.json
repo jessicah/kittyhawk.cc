@@ -2,6 +2,20 @@
 	{
 	  "category": "B",
 	  "events": 1,
+	  "points": 50,
+	  "tname": "Wahoo Le Col ",
+	  "tc": "ffffff",
+	  "tbc": "c6007e",
+	  "tbd": "0095c8",
+	  "name": "Kerry Paul [Wahoo Le Col]",
+	  "flag": "gb",
+	  "zwid": 115323,
+	  "podiums": "gold",
+	  "upgrades": 0
+	},
+	{
+	  "category": "B",
+	  "events": 1,
 	  "points": 47,
 	  "tname": "ZSUNR",
 	  "tc": "ffd808",
