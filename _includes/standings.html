@@ -12,14 +12,14 @@
 {% endif %}
 <p>
 	{% if include.riders %}
-	Individual results:
+	<!--Individual results:
 	{% assign count = 1 %}
 	{% for grade in riderResults %}
 	<a href='#{{ grade.name | downcase }}-grade-individual'>{{ grade.name}} Grade</a>
 	{% if count != riderResults.size %}|{% endif %}
 	{% assign count = count | plus: 1 %}
 	{% endfor %}
-	<br/>
+	<br/>-->
 	{% endif %}
 	{% if include.teams %}
 	Team results:
@@ -54,7 +54,7 @@
 </p>
 
 {% if include.riders %}
-<h3>Individual Results</h3>
+<!--<h3>Individual Results</h3>-->
 {% if riderResults.size < 1 %}
 <p>
 	No results yet.
@@ -67,7 +67,7 @@
 					<th colspan='4'>{{ grade.name | uppercase }} Grade</th>
 				</tr>
 			<tr>
-<th>Name</th><th style='text-align: right'>Team</th><th style='text-align: right'>E</th><th style='text-align: right'>P&nbsp;</th>
+<th>Name</th><th>Team</th><th style='text-align: right'>E</th><th style='text-align: right'>P&nbsp;</th>
 </tr>
 </thead>
 <tbody class='{{ grade.name | downcase }}-grade'>
@@ -88,11 +88,7 @@
 			{% assign tnamesize = item.tname.size %}
 			{% if tnamesize > 0 %}
 				{% assign border = item.tbd %}
-				{% if border == "ffffff" %}
-					<td class='team-badge'><span style='background-color: #{{item.tbc}}; color:#{{item.tc}}; border-color: #{{item.tbc}}'>{{ item.tname }}</span></td>
-				{% else %}
-					<td class='team-badge'><span style='background-color: #{{item.tbc}}; color:#{{item.tc}}; border-color: #{{item.tbd}}'>{{ item.tname }}</span></td>
-				{% endif %}
+				<td class='team-badge' style='background-color: #{{item.tbc}}; color:#{{item.tc}}'>{{ item.tname }}</td>
 			{% else %}
 			<td>&nbsp;</td>
 			{% endif %}
