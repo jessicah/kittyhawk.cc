@@ -1,82 +1,86 @@
 table {
-	width: 100%;
-  }
+  width: 100%;
+}
 
-  /* standings CSS */
-  .even {
-	background-color: rgb(214, 208, 208);
-	background-color: rgb(245, 214, 197);
-  }
+/* standings CSS */
+.even {
+  background-color: rgb(214, 208, 208);
+  background-color: rgb(245, 214, 197);
+}
 
-  .odd {
-	background-color: rgb(224, 218, 218);
-	background-color: rgb(245, 224, 207);
-  }
+.odd {
+  background-color: rgb(224, 218, 218);
+  background-color: rgb(245, 224, 207);
+}
 
-  td {
-	padding-left: 1em;
-	padding-right: 1em;
-	color: black;
-  }
+td {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: black;
+}
 
-  th {
-	padding-left: 1em;
-	padding-right: 1em;
-	text-align: left;
-  }
+th {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: left;
+}
 
-  thead {
-	background-color: rgba(242, 120, 12, 1);
-  }
+thead {
+  background-color: rgba(242, 120, 12, 1);
+}
 
-  #team-results td.team-badge {
-	text-align: left;
-  }
+#team-results td.team-badge {
+  text-align: left;
+}
 
-  td, th {
-	padding-top: 3px;
+tr.gap {
+  height: 4px;
+}
+
+td, th {
+  padding-top: 3px;
   line-height: 1.2em;
-  }
+}
 
-  td.events {
-	text-align: right;
-  }
+td.events {
+  text-align: right;
+}
 
-  td.points {
-	text-align: right;
-  }
+td.points {
+  text-align: right;
+}
 
-  td:content {
-	border-style: solid;
-	border-width: 2px;
-  }
+td:content {
+  border-style: solid;
+  border-width: 2px;
+}
 
-  td.odd:content {
-	border-color: rgb(224, 218, 218);
-  }
+td.odd:content {
+  border-color: rgb(224, 218, 218);
+}
 
-  td.even:content {
-	border-color: rgb(214, 208, 208);
-  }
+td.even:content {
+  border-color: rgb(214, 208, 208);
+}
 
-  .fa-star {
-	color: gold;
-  }
+.fa-star {
+  color: gold;
+}
 
-  thead.a-grade>tr {
-	background-color: red;
-  }
+thead.a-grade>tr {
+  background-color: red;
+}
 
-  thead.b-grade>tr {
-	background-color: green;
-  }
+thead.b-grade>tr {
+  background-color: green;
+}
 
-  thead.c-grade>tr {
-	background-color: lightseagreen;
-  }
+thead.c-grade>tr {
+  background-color: lightseagreen;
+}
 
-  thead.d-grade>tr {
-	background-color: orange;
-  }
+thead.d-grade>tr {
+  background-color: orange;
+}
 
-  /* end of standings CSS */
+/* end of standings CSS */

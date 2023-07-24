@@ -7,7 +7,7 @@ date: 23/07/2023
 
 <h3>Event Information</h3>
 <p>
-	The <strong>Fierce Felines</strong> is a series created by <strong>Kittyhawk
+	The <strong>Fierce Felines</strong> is a series by <strong>Kittyhawk
 	Racing</strong>, providing hard racing for
 	women across three timezones. We believe that women need more opportunities to race against women, and that races should be as equally hard
 	as some of the top mens racing in Zwift. This series provides races that should cater to all abilities, with time trials, points races,
@@ -81,17 +81,17 @@ date: 23/07/2023
 <p>Last updated: {{ page.date | date: "%A, %B %e" }}</p>
 
 <h3>Zone 1</h3>
-{% include standings.html
+{% include standings.liquid
 	riders=site.data.fierce_felines.2023.series_1.zone1
 %}
 
 <h3>Zone 2</h3>
-{% include standings.html
+{% include standings.liquid
 	riders=site.data.fierce_felines.2023.series_1.zone2
 %}
 
 <h3>Zone 3</h3>
-{% include standings.html
+{% include standings.liquid
 	riders=site.data.fierce_felines.2023.series_1.zone3
 %}
 

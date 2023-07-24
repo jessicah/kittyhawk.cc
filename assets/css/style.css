@@ -20,6 +20,7 @@ body {
 	font-size: 125%;
 	display: grid;
 	grid-template-columns: 1fr minmax(auto, 48ch) 1fr;
+	margin: 0
 }
 
 header {
@@ -29,6 +30,11 @@ header {
 
 img#header {
 	width: 100%;
+}
+
+section > * {
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 section#content {
