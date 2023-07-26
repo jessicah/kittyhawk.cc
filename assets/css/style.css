@@ -17,9 +17,8 @@ body {
 		linear-gradient(to right, rgb(73, 27, 50), rgb(161, 0, 86), rgb(255, 126, 9));
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 125%;
 	display: grid;
-	grid-template-columns: 1fr minmax(auto, 48ch) 1fr;
+	grid-template-columns: 1fr minmax(auto, 60ch) 1fr;
 	margin: 0
 }
 
@@ -45,6 +44,11 @@ section#content {
 section#content > p {
 	line-height: 1.1em;
 }
+
+h2 { font-size: 22pt }
+h3 { font-size: 18pt }
+p { font-size: 15pt }
+td, th { font-size: 15pt }
 
 footer {
 	grid-column: 2 / 3;
