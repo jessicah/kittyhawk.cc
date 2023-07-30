@@ -1,17 +1,23 @@
 [
 	{
 	  "category": "B",
-	  "events": 1,
-	  "points": 50,
+	  "events": 2,
+	  "points": 100,
 	  "tname": "Wahoo Le Col ",
 	  "tc": "ffffff",
 	  "tbc": "c6007e",
 	  "tbd": "0095c8",
 	  "name": "Kerry Paul",
+	  "rawName": "Kerry Paul [Wahoo Le Col]",
 	  "flag": "gb",
 	  "zwid": 115323,
-	  "podiums": "gold",
-	  "upgrades": 0
+	  "podiums": "gold gold",
+	  "upgrades": 0,
+	  "results": [
+		1,
+		null,
+		1
+	  ]
 	},
 	{
 	  "category": "B",
@@ -22,10 +28,14 @@
 	  "tbc": "1c1300",
 	  "tbd": "ffffff",
 	  "name": "Be\u0026aacute;ta Broderick",
+	  "rawName": "Be\u0026aacute;ta Broderick ",
 	  "flag": "ie",
 	  "zwid": 2158559,
 	  "podiums": "silver",
-	  "upgrades": 0
+	  "upgrades": 0,
+	  "results": [
+		2
+	  ]
 	},
 	{
 	  "category": "C",
@@ -36,10 +46,14 @@
 	  "tbc": "000000",
 	  "tbd": "ff00d4",
 	  "name": "Beatrice Rambaldi",
+	  "rawName": "Beatrice Rambaldi (eSRT)",
 	  "flag": "it",
 	  "zwid": 2227529,
 	  "podiums": "gold",
-	  "upgrades": 0
+	  "upgrades": 0,
+	  "results": [
+		1
+	  ]
 	},
 	{
 	  "category": "C",
@@ -50,9 +64,33 @@
 	  "tbc": "008b8b",
 	  "tbd": "00008b",
 	  "name": "Chrissy Oyler",
+	  "rawName": "Chrissy Oyler | ATP Swarm",
 	  "flag": "us",
 	  "zwid": 2389272,
 	  "podiums": "silver",
-	  "upgrades": 0
+	  "upgrades": 0,
+	  "results": [
+		2
+	  ]
+	},
+	{
+	  "category": "B",
+	  "events": 1,
+	  "points": 47,
+	  "tname": "AEO",
+	  "tc": "ffffff",
+	  "tbc": "000080",
+	  "tbd": "d548ee",
+	  "name": "Jennifer Misak",
+	  "rawName": "Jennifer Misak [AEO]",
+	  "flag": "gb",
+	  "zwid": 2567800,
+	  "podiums": "silver",
+	  "upgrades": 0,
+	  "results": [
+		null,
+		null,
+		2
+	  ]
 	}
   ]

@@ -8,10 +8,34 @@
 	  "tbc": "ccff00",
 	  "tbd": "ff69b4",
 	  "name": "Daria",
+	  "rawName": ". Daria[RAVE]",
 	  "flag": "us",
 	  "zwid": 888797,
 	  "podiums": "gold",
-	  "upgrades": 0
+	  "upgrades": 0,
+	  "results": [
+		1
+	  ]
+	},
+	{
+	  "category": "C",
+	  "events": 1,
+	  "points": 50,
+	  "tname": "CrushPod",
+	  "tc": "000000",
+	  "tbc": "faff1e",
+	  "tbd": "878484",
+	  "name": "Olivia Smith",
+	  "rawName": "Olivia Smith (CrushPod)",
+	  "flag": "gb",
+	  "zwid": 1899141,
+	  "podiums": "gold",
+	  "upgrades": 0,
+	  "results": [
+		null,
+		null,
+		1
+	  ]
 	},
 	{
 	  "category": "D",
@@ -22,10 +46,15 @@
 	  "tbc": "2e2c2c",
 	  "tbd": "e33131",
 	  "name": "Julie Clark",
+	  "rawName": "Julie Clark (ART)",
 	  "flag": "gb",
 	  "zwid": 2025471,
 	  "podiums": "gold silver",
-	  "upgrades": 0
+	  "upgrades": 0,
+	  "results": [
+		2,
+		1
+	  ]
 	},
 	{
 	  "category": "C",
@@ -36,10 +65,14 @@
 	  "tbc": "ccff00",
 	  "tbd": "ff69b4",
 	  "name": "Beth R",
+	  "rawName": "Beth R [RAVE]",
 	  "flag": "us",
 	  "zwid": 2544421,
 	  "podiums": "gold",
-	  "upgrades": 0
+	  "upgrades": 0,
+	  "results": [
+		1
+	  ]
 	},
 	{
 	  "category": "C",
@@ -50,9 +83,14 @@
 	  "tbc": "000080",
 	  "tbd": "d548ee",
 	  "name": "Berdien Driscoll",
+	  "rawName": "Berdien Driscoll (AEO)",
 	  "flag": "ie",
 	  "zwid": 2752176,
 	  "podiums": "gold",
-	  "upgrades": 0
+	  "upgrades": 0,
+	  "results": [
+		null,
+		1
+	  ]
 	}
   ]

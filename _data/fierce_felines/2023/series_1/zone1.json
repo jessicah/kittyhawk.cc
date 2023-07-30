@@ -8,10 +8,15 @@
     "tbc": "c6007e",
     "tbd": "0095c8",
     "name": "Kerry Paul",
+    "rawName": "Kerry Paul [Wahoo Le Col]",
     "flag": "gb",
     "zwid": 115323,
     "podiums": "gold",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      null,
+      1
+    ]
   },
   {
     "category": "D",
@@ -22,24 +27,34 @@
     "tbc": "000080",
     "tbd": "d548ee",
     "name": "Heidi Lehmann",
+    "rawName": "Heidi Lehmann [AEO]",
     "flag": "dk",
     "zwid": 399588,
     "podiums": "bronze",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      3
+    ]
   },
   {
     "category": "C",
-    "events": 2,
-    "points": 97,
+    "events": 3,
+    "points": 147,
     "tname": "KittyHawk",
     "tc": "ffffff",
     "tbc": "ff00c1",
     "tbd": "d3054d",
     "name": "Jessica Hamilton",
+    "rawName": "Jessica Hamilton",
     "flag": "nz",
     "zwid": 653395,
-    "podiums": "gold silver",
-    "upgrades": 0
+    "podiums": "gold gold silver",
+    "upgrades": 0,
+    "results": [
+      1,
+      2,
+      1
+    ]
   },
   {
     "category": "C",
@@ -50,10 +65,15 @@
     "tbc": "ff0606",
     "tbd": "080505",
     "name": "Annaleen Visagie",
+    "rawName": "Annaleen Visagie (CMC)",
     "flag": "za",
     "zwid": 1235014,
     "podiums": "gold silver",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      2,
+      1
+    ]
   },
   {
     "category": "D",
@@ -64,10 +84,35 @@
     "tbc": "009fe3",
     "tbd": "0c1e4f",
     "name": "Vivienne Powe",
+    "rawName": "Vivienne Powe CRYO-GEN",
     "flag": "au",
     "zwid": 1320009,
     "podiums": "gold gold",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      1,
+      1
+    ]
+  },
+  {
+    "category": "D",
+    "events": 1,
+    "points": 50,
+    "tname": "",
+    "tc": "",
+    "tbc": "",
+    "tbd": "",
+    "name": "Lizy",
+    "rawName": "L izyT9194",
+    "flag": "au",
+    "zwid": 2029771,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      null,
+      null,
+      1
+    ]
   },
   {
     "category": "D",
@@ -78,10 +123,14 @@
     "tbc": "",
     "tbd": "",
     "name": "Christina Petrakos",
+    "rawName": "Christina Petrakos",
     "flag": "au",
     "zwid": 2612715,
     "podiums": "",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      4
+    ]
   },
   {
     "category": "D",
@@ -92,10 +141,14 @@
     "tbc": "141c4d",
     "tbd": "c69d4b",
     "name": "Eunice Alexander",
+    "rawName": "Eunice Alexander",
     "flag": "gb-sct",
     "zwid": 3549370,
     "podiums": "silver",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      2
+    ]
   },
   {
     "category": "D",
@@ -106,10 +159,15 @@
     "tbc": "",
     "tbd": "",
     "name": "Maria Benton",
+    "rawName": "Maria Benton",
     "flag": "gb",
     "zwid": 5266765,
     "podiums": "silver",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      null,
+      2
+    ]
   },
   {
     "category": "C",
@@ -119,10 +177,15 @@
     "tc": "",
     "tbc": "",
     "tbd": "",
-    "name": "Stine. Hansen",
+    "name": "Stine Hansen",
+    "rawName": "Stine. Hansen",
     "flag": "dk",
     "zwid": 5385826,
     "podiums": "bronze",
-    "upgrades": 0
+    "upgrades": 0,
+    "results": [
+      null,
+      3
+    ]
   }
 ]
