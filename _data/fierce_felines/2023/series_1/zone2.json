@@ -92,5 +92,26 @@
 		null,
 		1
 	  ]
+	},
+	{
+	  "category": "C",
+	  "events": 1,
+	  "points": 50,
+	  "tname": "",
+	  "tc": "",
+	  "tbc": "",
+	  "tbd": "",
+	  "name": "Jenna Kenning",
+	  "rawName": "jenna kenning",
+	  "flag": "gb",
+	  "zwid": 5019030,
+	  "podiums": "gold",
+	  "upgrades": 0,
+	  "results": [
+		null,
+		null,
+		null,
+		1
+	  ]
 	}
   ]
