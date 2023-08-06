@@ -47,8 +47,10 @@ section#content > p {
 
 h2 { font-size: 22pt }
 h3 { font-size: 18pt }
+h4 { font-size: 16pt }
 p { font-size: 15pt }
 td, th { font-size: 15pt }
+li { font-size: 15pt; line-height: 1.1em }
 
 footer {
 	grid-column: 2 / 3;
