@@ -2,7 +2,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 44,
+    "points": 28,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -18,9 +18,9 @@
     ]
   },
   {
-    "category": "B",
+    "category": "C",
     "events": 1,
-    "points": 47,
+    "points": 40,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -54,9 +54,9 @@
     ]
   },
   {
-    "category": "C",
+    "category": "B",
     "events": 1,
-    "points": 47,
+    "points": 50,
     "tname": "COALITION",
     "tc": "ffffff",
     "tbc": "ff00ff",
@@ -65,16 +65,16 @@
     "rawName": "Hollie Burgin (COALITION) ",
     "flag": "gb",
     "zwid": 1921340,
-    "podiums": "silver",
+    "podiums": "gold",
     "upgrades": 0,
     "results": [
-      2
+      1
     ]
   },
   {
     "category": "C",
     "events": 1,
-    "points": 45,
+    "points": 33,
     "tname": "WCC",
     "tc": "ffffff",
     "tbc": "f50e0e",
@@ -92,7 +92,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 43,
+    "points": 25,
     "tname": "[GALAXY]",
     "tc": "ffffff",
     "tbc": "7014f2",
@@ -110,7 +110,7 @@
   {
     "category": "B",
     "events": 1,
-    "points": 50,
+    "points": 40,
     "tname": "SYNERGY ",
     "tc": "ffffff",
     "tbc": "040505",
@@ -119,11 +119,10 @@
     "rawName": "Britt Poor (SYNERGY)",
     "flag": "us",
     "zwid": 5049233,
-    "podiums": "gold",
+    "podiums": "silver",
     "upgrades": 0,
     "results": [
-      1
+      2
     ]
   }
 ]
-

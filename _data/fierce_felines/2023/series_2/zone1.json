@@ -2,7 +2,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 44,
+    "points": 28,
     "tname": "ZSUN CC",
     "tc": "ffffff",
     "tbc": "0073b7",
@@ -20,7 +20,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 45,
+    "points": 33,
     "tname": "",
     "tc": "",
     "tbc": "",
@@ -38,7 +38,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 47,
+    "points": 40,
     "tname": "KittyHawk",
     "tc": "ffffff",
     "tbc": "ff00c1",
@@ -108,4 +108,3 @@
     ]
   }
 ]
-

@@ -2,7 +2,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 41,
+    "points": 19,
     "tname": "Team F3",
     "tc": "f100f6",
     "tbc": "0e0ede",
@@ -14,13 +14,13 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      7
+      8
     ]
   },
   {
     "category": "C",
     "events": 1,
-    "points": 42,
+    "points": 20,
     "tname": "WCC",
     "tc": "ffffff",
     "tbc": "f50e0e",
@@ -32,13 +32,13 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      6
+      7
     ]
   },
   {
     "category": "D",
     "events": 1,
-    "points": 47,
+    "points": 40,
     "tname": "",
     "tc": "",
     "tbc": "",
@@ -56,7 +56,7 @@
   {
     "category": "D",
     "events": 1,
-    "points": 45,
+    "points": 33,
     "tname": "Vixen/Fox",
     "tc": "7409a6",
     "tbc": "f79d4b",
@@ -74,7 +74,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 50,
+    "points": 40,
     "tname": "COALITION",
     "tc": "ffffff",
     "tbc": "ff00ff",
@@ -83,16 +83,16 @@
     "rawName": "Randi (COALITION)",
     "flag": "us",
     "zwid": 1310566,
-    "podiums": "gold",
+    "podiums": "silver",
     "upgrades": 0,
     "results": [
-      1
+      2
     ]
   },
   {
     "category": "C",
     "events": 1,
-    "points": 44,
+    "points": 25,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -104,13 +104,13 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      4
+      5
     ]
   },
   {
     "category": "C",
     "events": 1,
-    "points": 47,
+    "points": 33,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -119,10 +119,10 @@
     "rawName": "Jo Graham (CrushPod)",
     "flag": "gb",
     "zwid": 1615725,
-    "podiums": "silver",
+    "podiums": "bronze",
     "upgrades": 0,
     "results": [
-      2
+      3
     ]
   },
   {
@@ -146,7 +146,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 43,
+    "points": 22,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -158,13 +158,13 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      5
+      6
     ]
   },
   {
     "category": "D",
     "events": 1,
-    "points": 43,
+    "points": 25,
     "tname": "COALITION",
     "tc": "ffffff",
     "tbc": "ff00ff",
@@ -182,7 +182,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 39,
+    "points": 17,
     "tname": "Team RAVE",
     "tc": "000000",
     "tbc": "ccff00",
@@ -194,11 +194,11 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      9
+      10
     ]
   },
   {
-    "category": "B",
+    "category": "C",
     "events": 1,
     "points": 50,
     "tname": "SYNERGY ",
@@ -218,7 +218,7 @@
   {
     "category": "C",
     "events": 1,
-    "points": 40,
+    "points": 18,
     "tname": "WattFabrik",
     "tc": "ffffff",
     "tbc": "000000",
@@ -230,13 +230,13 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      8
+      9
     ]
   },
   {
     "category": "C",
     "events": 1,
-    "points": 45,
+    "points": 28,
     "tname": "COALITION",
     "tc": "ffffff",
     "tbc": "ff00ff",
@@ -245,16 +245,16 @@
     "rawName": "Susan Clarke (Coalition)",
     "flag": "ca",
     "zwid": 3035860,
-    "podiums": "bronze",
+    "podiums": "",
     "upgrades": 0,
     "results": [
-      3
+      4
     ]
   },
   {
     "category": "D",
     "events": 1,
-    "points": 44,
+    "points": 28,
     "tname": "",
     "tc": "",
     "tbc": "",
@@ -270,4 +270,3 @@
     ]
   }
 ]
-
