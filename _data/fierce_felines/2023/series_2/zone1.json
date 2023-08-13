@@ -1,0 +1,111 @@
+[
+  {
+    "category": "C",
+    "events": 1,
+    "points": 44,
+    "tname": "ZSUN CC",
+    "tc": "ffffff",
+    "tbc": "0073b7",
+    "tbd": "ffffff",
+    "name": "A\u0026#128060; Panda Zsunr",
+    "rawName": "  A\u0026#128060; Panda Zsunr",
+    "flag": "au",
+    "zwid": 135743,
+    "podiums": "",
+    "upgrades": 0,
+    "results": [
+      4
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 45,
+    "tname": "",
+    "tc": "",
+    "tbc": "",
+    "tbd": "",
+    "name": "Amy Barker",
+    "rawName": "Amy Barker",
+    "flag": "au",
+    "zwid": 436824,
+    "podiums": "bronze",
+    "upgrades": 0,
+    "results": [
+      3
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 47,
+    "tname": "KittyHawk",
+    "tc": "ffffff",
+    "tbc": "ff00c1",
+    "tbd": "d3054d",
+    "name": "Jessica Hamilton",
+    "rawName": "Jessica Hamilton",
+    "flag": "nz",
+    "zwid": 653395,
+    "podiums": "silver",
+    "upgrades": 0,
+    "results": [
+      2
+    ]
+  },
+  {
+    "category": "B",
+    "events": 1,
+    "points": 50,
+    "tname": "TBR Racing",
+    "tc": "ffffff",
+    "tbc": "709c86",
+    "tbd": "ffffff",
+    "name": "Lucy Esdaile",
+    "rawName": "Lucy Esdaile [TBR]",
+    "flag": "au",
+    "zwid": 752850,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      1
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 50,
+    "tname": "REVO",
+    "tc": "fc00e3",
+    "tbc": "000000",
+    "tbd": "fc00e3",
+    "name": "Lauren McGregor",
+    "rawName": "Lauren McGregor(REVO)",
+    "flag": "gb",
+    "zwid": 781655,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      1
+    ]
+  },
+  {
+    "category": "D",
+    "events": 1,
+    "points": 50,
+    "tname": "Team CRYO-GEN",
+    "tc": "ffffff",
+    "tbc": "009fe3",
+    "tbd": "0c1e4f",
+    "name": "Vivienne Powe CRYO-GEN",
+    "rawName": "Vivienne Powe CRYO-GEN",
+    "flag": "au",
+    "zwid": 1320009,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      1
+    ]
+  }
+]
+

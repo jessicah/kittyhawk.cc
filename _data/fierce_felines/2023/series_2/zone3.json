@@ -1,0 +1,129 @@
+[
+  {
+    "category": "C",
+    "events": 1,
+    "points": 44,
+    "tname": "CrushPod",
+    "tc": "000000",
+    "tbc": "faff1e",
+    "tbd": "878484",
+    "name": "Leanne Dalley",
+    "rawName": "Leanne Dalley ",
+    "flag": "nz",
+    "zwid": 225114,
+    "podiums": "",
+    "upgrades": 0,
+    "results": [
+      4
+    ]
+  },
+  {
+    "category": "B",
+    "events": 1,
+    "points": 47,
+    "tname": "CrushPod",
+    "tc": "000000",
+    "tbc": "faff1e",
+    "tbd": "878484",
+    "name": "Carly Graham",
+    "rawName": "Carly Graham (CrushPod)",
+    "flag": "nz",
+    "zwid": 737970,
+    "podiums": "silver",
+    "upgrades": 0,
+    "results": [
+      2
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 50,
+    "tname": "TeamNL",
+    "tc": "ffffff",
+    "tbc": "ffa500",
+    "tbd": "ffa500",
+    "name": "Gina van Rossum",
+    "rawName": "Gina van Rossum (Team NL) (Herd of Quolls) (BBB)",
+    "flag": "nl",
+    "zwid": 890645,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      1
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 47,
+    "tname": "COALITION",
+    "tc": "ffffff",
+    "tbc": "ff00ff",
+    "tbd": "ff00ff",
+    "name": "Hollie Burgin",
+    "rawName": "Hollie Burgin (COALITION) ",
+    "flag": "gb",
+    "zwid": 1921340,
+    "podiums": "silver",
+    "upgrades": 0,
+    "results": [
+      2
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 45,
+    "tname": "WCC",
+    "tc": "ffffff",
+    "tbc": "f50e0e",
+    "tbd": "210000",
+    "name": "Viola Reimer",
+    "rawName": "Viola Reimer",
+    "flag": "de",
+    "zwid": 2759039,
+    "podiums": "bronze",
+    "upgrades": 0,
+    "results": [
+      3
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 43,
+    "tname": "[GALAXY]",
+    "tc": "ffffff",
+    "tbc": "7014f2",
+    "tbd": "090000",
+    "name": "Kathy Schneider",
+    "rawName": "Kathy Schneider (GXY/TFC)",
+    "flag": "us",
+    "zwid": 3396266,
+    "podiums": "",
+    "upgrades": 0,
+    "results": [
+      5
+    ]
+  },
+  {
+    "category": "B",
+    "events": 1,
+    "points": 50,
+    "tname": "SYNERGY ",
+    "tc": "ffffff",
+    "tbc": "040505",
+    "tbd": "ffffff",
+    "name": "Britt Poor",
+    "rawName": "Britt Poor (SYNERGY)",
+    "flag": "us",
+    "zwid": 5049233,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      1
+    ]
+  }
+]
+
