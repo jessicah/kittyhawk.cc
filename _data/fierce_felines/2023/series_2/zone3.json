@@ -14,8 +14,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
+      "-",
+      7,
       null,
-      7
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -34,7 +40,13 @@
     "upgrades": 0,
     "results": [
       2,
-      1
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -53,7 +65,13 @@
     "upgrades": 0,
     "results": [
       3,
-      5
+      5,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -71,8 +89,14 @@
     "podiums": "gold",
     "upgrades": 0,
     "results": [
+      "-",
+      1,
       null,
-      1
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -91,7 +115,13 @@
     "upgrades": 0,
     "results": [
       1,
-      2
+      2,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -109,8 +139,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
+      "-",
+      4,
       null,
-      4
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -129,7 +165,13 @@
     "upgrades": 0,
     "results": [
       2,
-      3
+      3,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -147,7 +189,14 @@
     "podiums": "gold",
     "upgrades": 0,
     "results": [
-      1
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -165,7 +214,14 @@
     "podiums": "bronze",
     "upgrades": 0,
     "results": [
-      3
+      3,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -183,8 +239,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
+      "-",
+      6,
       null,
-      6
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -202,8 +264,14 @@
     "podiums": "gold",
     "upgrades": 0,
     "results": [
+      "-",
+      1,
       null,
-      1
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -221,7 +289,14 @@
     "podiums": "gold",
     "upgrades": 0,
     "results": [
-      1
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   }
 ]

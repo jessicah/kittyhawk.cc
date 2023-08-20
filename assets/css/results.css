@@ -63,8 +63,25 @@ td.even:content {
   border-color: rgb(214, 208, 208);
 }
 
+i.fas {
+  text-stroke: 0.5px black;
+  -webkit-text-stroke: 0.5px black;
+}
+
 .fa-star {
   color: gold;
+}
+
+i.gold {
+  color: gold;
+}
+
+i.silver {
+  color: silver;
+}
+
+i.bronze {
+  color: #cd7f32;
 }
 
 thead.a-grade>tr {
@@ -81,6 +98,13 @@ thead.c-grade>tr {
 
 thead.d-grade>tr {
   background-color: orange;
+}
+
+tr.positions > td {
+  width: 24px;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
 }
 
 /* end of standings CSS */

@@ -65,10 +65,10 @@
         <thead class='{{ grade.name | downcase }}-grade' id='{{ grade.name | downcase }}-grade-individual'>
           <tr class='gap'></tr>
           <tr>
-            <th colspan='4'>{{ grade.name | uppercase }} Grade</th>
+            <th colspan='11'>{{ grade.name | uppercase }} Grade</th>
           </tr>
           <tr>
-            <th>Name</th>
+            <th colspan="8">Name</th>
             <th>Team</th>
             <th style='text-align: right'>E</th>
             <th style='text-align: right'>P&nbsp;</th>
@@ -80,15 +80,8 @@
             {% assign silver = item.podiums | remove: "gold" | remove: "bronze" %}
             {% assign bronze = item.podiums | remove: "silver" | remove: "gold" %}
             {% assign podiums = gold | append: " " | append: silver | append: " " | append: bronze | split: " " %}
-            <tr class='{% cycle "even", "odd" %}'>
-              <td>{{ item.name }}
-                {% for p in podiums reversed %}
-                  <i class='fas fa-trophy {{ p }}'></i>
-                {% endfor %}
-                {% for i in (1..item.upgrades) %}
-                  <i class='fas fa-star'></i>
-                {% endfor %}
-              </td>
+            <tr class='{% cycle "row1": "even", "odd" %}'>
+              <td colspan="8">{{ item.name }}</td>
               {% assign tnamesize = item.tname.size %}
               {% if tnamesize > 0 %}
                 {% assign border = item.tbd %}
@@ -98,6 +91,34 @@
               {% endif %}
               <td class='events'>{{ item.events }}</td>
               <td class='points'>{{ item.points }}</td>
+            </tr>
+            <tr class='{% cycle "row2": "even", "odd" %} positions'>
+              {% for pos in item.results %}
+                {% if pos == "-" %}
+                  <td>-</td>
+                {% elsif pos == "U" %}
+                  <td>
+                    <i class='fas fa-star'></i>
+                  </td>
+                {% elsif pos == 1 %}
+                  <td>
+                    <i class='fas fa-trophy gold'></i>
+                  </td>
+                {% elsif pos == 2 %}
+                  <td>
+                    <i class='fas fa-trophy silver'></i>
+                  </td>
+                {% elsif pos == 3 %}
+                  <td>
+                    <i class='fas fa-trophy bronze'></i>
+                  </td>
+                {% elsif pos %}
+                  <td>{{ pos }}</td>
+                {% else %}
+                  <td></td>
+                {% endif %}
+              {% endfor %}
+              <td colspan="3"></td>
             </tr>
           {% endfor %}
         </tbody>

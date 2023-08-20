@@ -14,8 +14,14 @@
     "podiums": "silver",
     "upgrades": 0,
     "results": [
+      "-",
+      2,
       null,
-      2
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -33,7 +39,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      7
+      7,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -52,7 +65,13 @@
     "upgrades": 0,
     "results": [
       6,
-      5
+      5,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -70,7 +89,14 @@
     "podiums": "silver",
     "upgrades": 0,
     "results": [
-      2
+      2,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -89,7 +115,13 @@
     "upgrades": 0,
     "results": [
       3,
-      1
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -107,8 +139,14 @@
     "podiums": "silver",
     "upgrades": 0,
     "results": [
+      "-",
+      2,
       null,
-      2
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -127,7 +165,13 @@
     "upgrades": 0,
     "results": [
       1,
-      1
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -145,7 +189,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      4
+      4,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -163,13 +214,20 @@
     "podiums": "silver",
     "upgrades": 0,
     "results": [
-      2
+      2,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
     "category": "C",
     "events": 2,
-    "points": 44,
+    "points": 19,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -178,11 +236,17 @@
     "rawName": "Olivia Smith (CrushPod)",
     "flag": "gb",
     "zwid": 1899141,
-    "podiums": "gold",
+    "podiums": "",
     "upgrades": 1,
     "results": [
-      1,
-      4
+      "U",
+      4,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -201,7 +265,13 @@
     "upgrades": 0,
     "results": [
       5,
-      6
+      6,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -219,7 +289,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      5
+      5,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -237,7 +314,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      9
+      9,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -255,7 +339,14 @@
     "podiums": "gold",
     "upgrades": 0,
     "results": [
-      1
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -273,7 +364,14 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      8
+      8,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -292,7 +390,13 @@
     "upgrades": 0,
     "results": [
       3,
-      3
+      3,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -311,7 +415,13 @@
     "upgrades": 0,
     "results": [
       4,
-      3
+      3,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   }
 ]
