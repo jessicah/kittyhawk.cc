@@ -1,8 +1,27 @@
 [
   {
-    "category": "C",
+    "category": "B",
     "events": 1,
-    "points": 22,
+    "points": 16,
+    "tname": "COALITION",
+    "tc": "ffffff",
+    "tbc": "ff00ff",
+    "tbd": "ff00ff",
+    "name": "Joanne G",
+    "rawName": "Joanne G (COALITION)",
+    "flag": "us",
+    "zwid": 104310,
+    "podiums": "",
+    "upgrades": 0,
+    "results": [
+      null,
+      7
+    ]
+  },
+  {
+    "category": "C",
+    "events": 2,
+    "points": 47,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -11,16 +30,17 @@
     "rawName": "Leanne Dalley ",
     "flag": "nz",
     "zwid": 225114,
-    "podiums": "silver",
+    "podiums": "gold silver",
     "upgrades": 0,
     "results": [
-      2
+      2,
+      1
     ]
   },
   {
     "category": "B",
-    "events": 1,
-    "points": 20,
+    "events": 2,
+    "points": 38,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -32,13 +52,33 @@
     "podiums": "bronze",
     "upgrades": 0,
     "results": [
-      3
+      3,
+      5
+    ]
+  },
+  {
+    "category": "D",
+    "events": 1,
+    "points": 25,
+    "tname": "Team RAVE",
+    "tc": "000000",
+    "tbc": "ccff00",
+    "tbd": "ff69b4",
+    "name": "Daria",
+    "rawName": ". Daria[RAVE]",
+    "flag": "us",
+    "zwid": 888797,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      null,
+      1
     ]
   },
   {
     "category": "B",
-    "events": 1,
-    "points": 25,
+    "events": 2,
+    "points": 47,
     "tname": "TeamNL",
     "tc": "ffffff",
     "tbc": "ffa500",
@@ -47,16 +87,36 @@
     "rawName": "Gina van Rossum (Team NL) (Herd of Quolls) (BBB)",
     "flag": "nl",
     "zwid": 890645,
-    "podiums": "gold",
+    "podiums": "gold silver",
     "upgrades": 0,
     "results": [
-      1
+      1,
+      2
     ]
   },
   {
     "category": "B",
     "events": 1,
-    "points": 22,
+    "points": 19,
+    "tname": "COALITION",
+    "tc": "ffffff",
+    "tbc": "ff00ff",
+    "tbd": "ff00ff",
+    "name": "Vanessa Beaver",
+    "rawName": "Vanessa Beaver",
+    "flag": "ca",
+    "zwid": 1156377,
+    "podiums": "",
+    "upgrades": 0,
+    "results": [
+      null,
+      4
+    ]
+  },
+  {
+    "category": "B",
+    "events": 2,
+    "points": 42,
     "tname": "COALITION",
     "tc": "ffffff",
     "tbc": "ff00ff",
@@ -65,10 +125,11 @@
     "rawName": "Hollie Burgin (COALITION) ",
     "flag": "gb",
     "zwid": 1921340,
-    "podiums": "silver",
+    "podiums": "silver bronze",
     "upgrades": 0,
     "results": [
-      2
+      2,
+      3
     ]
   },
   {
@@ -105,6 +166,44 @@
     "upgrades": 0,
     "results": [
       3
+    ]
+  },
+  {
+    "category": "B",
+    "events": 1,
+    "points": 17,
+    "tname": "COALITION",
+    "tc": "ffffff",
+    "tbc": "ff00ff",
+    "tbd": "ff00ff",
+    "name": "Kat Matthews",
+    "rawName": "Kat Matthews (Coalition)",
+    "flag": "us",
+    "zwid": 4453805,
+    "podiums": "",
+    "upgrades": 0,
+    "results": [
+      null,
+      6
+    ]
+  },
+  {
+    "category": "B",
+    "events": 1,
+    "points": 25,
+    "tname": "Foudre\u0026#9889;\u0026#65039;",
+    "tc": "ffffff",
+    "tbc": "70cfdc",
+    "tbd": "70cfdc",
+    "name": "Clara Le Gros",
+    "rawName": "Clara Le Gros (Foudre)  [WATT]",
+    "flag": "fr",
+    "zwid": 5025753,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      null,
+      1
     ]
   },
   {

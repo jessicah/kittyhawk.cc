@@ -1,5 +1,24 @@
 [
   {
+    "category": "B",
+    "events": 1,
+    "points": 25,
+    "tname": "EVOLUTION ",
+    "tc": "ff09ff",
+    "tbc": "2e1c1c",
+    "tbd": "ff09ff",
+    "name": "Doris Marr",
+    "rawName": "Doris Marr [EVO]",
+    "flag": "au",
+    "zwid": 39294,
+    "podiums": "gold",
+    "upgrades": 0,
+    "results": [
+      null,
+      1
+    ]
+  },
+  {
     "category": "C",
     "events": 1,
     "points": 19,
@@ -37,8 +56,8 @@
   },
   {
     "category": "C",
-    "events": 1,
-    "points": 22,
+    "events": 2,
+    "points": 47,
     "tname": "KittyHawk",
     "tc": "ffffff",
     "tbc": "ff00c1",
@@ -47,16 +66,17 @@
     "rawName": "Jessica Hamilton",
     "flag": "nz",
     "zwid": 653395,
-    "podiums": "silver",
+    "podiums": "gold silver",
     "upgrades": 0,
     "results": [
-      2
+      2,
+      1
     ]
   },
   {
     "category": "B",
-    "events": 1,
-    "points": 25,
+    "events": 2,
+    "points": 47,
     "tname": "TBR Racing",
     "tc": "ffffff",
     "tbc": "709c86",
@@ -65,16 +85,17 @@
     "rawName": "Lucy Esdaile [TBR]",
     "flag": "au",
     "zwid": 752850,
-    "podiums": "gold",
+    "podiums": "gold silver",
     "upgrades": 0,
     "results": [
-      1
+      1,
+      2
     ]
   },
   {
     "category": "C",
-    "events": 1,
-    "points": 25,
+    "events": 2,
+    "points": 47,
     "tname": "REVO",
     "tc": "fc00e3",
     "tbc": "000000",
@@ -83,16 +104,36 @@
     "rawName": "Lauren McGregor(REVO)",
     "flag": "gb",
     "zwid": 781655,
-    "podiums": "gold",
+    "podiums": "gold silver",
     "upgrades": 0,
     "results": [
-      1
+      1,
+      2
     ]
   },
   {
     "category": "D",
     "events": 1,
-    "points": 25,
+    "points": 22,
+    "tname": "Team RAVE",
+    "tc": "000000",
+    "tbc": "ccff00",
+    "tbd": "ff69b4",
+    "name": "Michelle Ferris",
+    "rawName": "Michelle Ferris (Rave n Divas)",
+    "flag": "au",
+    "zwid": 1228992,
+    "podiums": "silver",
+    "upgrades": 0,
+    "results": [
+      null,
+      2
+    ]
+  },
+  {
+    "category": "D",
+    "events": 2,
+    "points": 50,
     "tname": "Team CRYO-GEN",
     "tc": "ffffff",
     "tbc": "009fe3",
@@ -101,10 +142,30 @@
     "rawName": "Vivienne Powe CRYO-GEN",
     "flag": "au",
     "zwid": 1320009,
-    "podiums": "gold",
+    "podiums": "gold gold",
     "upgrades": 0,
     "results": [
+      1,
       1
+    ]
+  },
+  {
+    "category": "C",
+    "events": 1,
+    "points": 20,
+    "tname": "CrushPod",
+    "tc": "000000",
+    "tbc": "faff1e",
+    "tbd": "878484",
+    "name": "Sara Sto Helit",
+    "rawName": "Sara Sto Helit (CrushPod)",
+    "flag": "se",
+    "zwid": 1615499,
+    "podiums": "bronze",
+    "upgrades": 0,
+    "results": [
+      null,
+      3
     ]
   }
 ]

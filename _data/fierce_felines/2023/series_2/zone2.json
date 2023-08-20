@@ -1,5 +1,24 @@
 [
   {
+    "category": "D",
+    "events": 1,
+    "points": 22,
+    "tname": "Vixen/Fox",
+    "tc": "7409a6",
+    "tbc": "f79d4b",
+    "tbd": "ffffff",
+    "name": "Diane Elmore",
+    "rawName": "Diane Elmore",
+    "flag": "us",
+    "zwid": 85229,
+    "podiums": "silver",
+    "upgrades": 0,
+    "results": [
+      null,
+      2
+    ]
+  },
+  {
     "category": "C",
     "events": 1,
     "points": 16,
@@ -19,8 +38,8 @@
   },
   {
     "category": "C",
-    "events": 1,
-    "points": 17,
+    "events": 2,
+    "points": 35,
     "tname": "WCC",
     "tc": "ffffff",
     "tbc": "f50e0e",
@@ -32,7 +51,8 @@
     "podiums": "",
     "upgrades": 0,
     "results": [
-      6
+      6,
+      5
     ]
   },
   {
@@ -55,8 +75,8 @@
   },
   {
     "category": "D",
-    "events": 1,
-    "points": 20,
+    "events": 2,
+    "points": 45,
     "tname": "Vixen/Fox",
     "tc": "7409a6",
     "tbc": "f79d4b",
@@ -65,16 +85,36 @@
     "rawName": "Ann Walker [VVIXEN]",
     "flag": "gb",
     "zwid": 470488,
-    "podiums": "bronze",
+    "podiums": "gold bronze",
     "upgrades": 0,
     "results": [
-      3
+      3,
+      1
     ]
   },
   {
     "category": "C",
     "events": 1,
-    "points": 25,
+    "points": 22,
+    "tname": "[DRAFT]",
+    "tc": "ffffff",
+    "tbc": "f70707",
+    "tbd": "ffffff",
+    "name": "Suzanne Bessette",
+    "rawName": "Suzanne Bessette",
+    "flag": "ua",
+    "zwid": 569518,
+    "podiums": "silver",
+    "upgrades": 0,
+    "results": [
+      null,
+      2
+    ]
+  },
+  {
+    "category": "C",
+    "events": 2,
+    "points": 50,
     "tname": "COALITION",
     "tc": "ffffff",
     "tbc": "ff00ff",
@@ -83,9 +123,10 @@
     "rawName": "Randi (COALITION)",
     "flag": "us",
     "zwid": 1310566,
-    "podiums": "gold",
+    "podiums": "gold gold",
     "upgrades": 0,
     "results": [
+      1,
       1
     ]
   },
@@ -126,9 +167,9 @@
     ]
   },
   {
-    "category": "D",
-    "events": 1,
-    "points": 25,
+    "category": "C",
+    "events": 2,
+    "points": 44,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
@@ -138,27 +179,29 @@
     "flag": "gb",
     "zwid": 1899141,
     "podiums": "gold",
-    "upgrades": 0,
+    "upgrades": 1,
     "results": [
-      1
+      1,
+      4
     ]
   },
   {
     "category": "C",
-    "events": 1,
-    "points": 18,
+    "events": 2,
+    "points": 35,
     "tname": "CrushPod",
     "tc": "000000",
     "tbc": "faff1e",
     "tbd": "878484",
-    "name": "Sarah Pax",
+    "name": "SarahPax",
     "rawName": "SarahPax (CrushPod)",
     "flag": "us",
     "zwid": 2210583,
     "podiums": "",
     "upgrades": 0,
     "results": [
-      5
+      5,
+      6
     ]
   },
   {
@@ -235,8 +278,8 @@
   },
   {
     "category": "C",
-    "events": 1,
-    "points": 20,
+    "events": 2,
+    "points": 40,
     "tname": "COALITION",
     "tc": "ffffff",
     "tbc": "ff00ff",
@@ -245,16 +288,17 @@
     "rawName": "Susan Clarke (Coalition)",
     "flag": "ca",
     "zwid": 3035860,
-    "podiums": "bronze",
+    "podiums": "bronze bronze",
     "upgrades": 0,
     "results": [
+      3,
       3
     ]
   },
   {
     "category": "D",
-    "events": 1,
-    "points": 19,
+    "events": 2,
+    "points": 39,
     "tname": "",
     "tc": "",
     "tbc": "",
@@ -263,10 +307,11 @@
     "rawName": "Helene Linou",
     "flag": "fr",
     "zwid": 5156290,
-    "podiums": "",
+    "podiums": "bronze",
     "upgrades": 0,
     "results": [
-      4
+      4,
+      3
     ]
   }
 ]
