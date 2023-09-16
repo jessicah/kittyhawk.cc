@@ -6,6 +6,7 @@ table {
 .even {
   background-color: rgb(214, 208, 208);
   background-color: rgb(245, 214, 197);
+  background-color: rgb(235, 204, 187);
 }
 
 .odd {
@@ -46,7 +47,7 @@ td.events {
   text-align: right;
 }
 
-td.points {
+td.totalPoints {
   text-align: right;
 }
 
@@ -104,7 +105,18 @@ tr.positions > td {
   width: 24px;
   padding-left: 4px;
   padding-right: 4px;
-  text-align: center;
+}
+
+td.points {
+	text-align: left;
+}
+td.points > span {
+	display: inline-block;
+	min-width: 24px;
+	text-align: center;
+}
+td.points > span:nth-child(1) {
+	padding-left: 1em;
 }
 
 /* end of standings CSS */
