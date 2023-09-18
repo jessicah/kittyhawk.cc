@@ -126,8 +126,8 @@
 	},
 	{
 		"category": "C",
-		"events": 4,
-		"points": 89,
+		"events": 5,
+		"points": 114,
 		"tname": "KittyHawk",
 		"tc": "ffffff",
 		"tbc": "ff00c1",
@@ -136,15 +136,15 @@
 		"rawName": "Jessica Hamilton",
 		"flag": "nz",
 		"zwid": 653395,
-		"podiums": "gold silver silver bronze",
+		"podiums": "gold gold silver silver bronze",
 		"upgrades": 0,
 		"results": [
 			2,
 			1,
 			2,
 			3,
-			null,
-			null,
+			"-",
+			1,
 			null,
 			null
 		]
@@ -326,8 +326,8 @@
 	},
 	{
 		"category": "D",
-		"events": 4,
-		"points": 100,
+		"events": 5,
+		"points": 125,
 		"tname": "Team CRYO-GEN",
 		"tc": "ffffff",
 		"tbc": "009fe3",
@@ -336,15 +336,15 @@
 		"rawName": "Vivienne Powe CRYO-GEN",
 		"flag": "au",
 		"zwid": 1320009,
-		"podiums": "gold gold gold gold",
+		"podiums": "gold gold gold gold gold",
 		"upgrades": 0,
 		"results": [
 			1,
 			1,
 			1,
 			1,
-			null,
-			null,
+			"-",
+			1,
 			null,
 			null
 		]
@@ -407,7 +407,7 @@
 		"tc": "ffffff",
 		"tbc": "800080",
 		"tbd": "000000",
-		"name": "Kat Callaghan",
+		"name": "Kat  Callaghan",
 		"rawName": "Kat  Callaghan (MTRC)",
 		"flag": "us",
 		"zwid": 4365684,

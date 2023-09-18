@@ -376,8 +376,8 @@
 	},
 	{
 		"category": "C",
-		"events": 3,
-		"points": 55,
+		"events": 4,
+		"points": 80,
 		"tname": "CrushPod",
 		"tc": "000000",
 		"tbc": "faff1e",
@@ -386,7 +386,7 @@
 		"rawName": "SarahPax (CrushPod)",
 		"flag": "us",
 		"zwid": 2210583,
-		"podiums": "bronze",
+		"podiums": "gold bronze",
 		"upgrades": 0,
 		"results": [
 			5,
@@ -394,7 +394,7 @@
 			"-",
 			"-",
 			3,
-			null,
+			1,
 			null,
 			null
 		]
