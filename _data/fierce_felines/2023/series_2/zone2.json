@@ -101,8 +101,8 @@
 	},
 	{
 		"category": "C",
-		"events": 5,
-		"points": 90,
+		"events": 6,
+		"points": 115,
 		"tname": "WCC",
 		"tc": "ffffff",
 		"tbc": "f50e0e",
@@ -111,7 +111,7 @@
 		"rawName": "Lisa Armistead (WCC)",
 		"flag": "us",
 		"zwid": 279546,
-		"podiums": "silver",
+		"podiums": "gold silver",
 		"upgrades": 0,
 		"results": [
 			6,
@@ -119,8 +119,8 @@
 			8,
 			2,
 			5,
-			null,
-			null,
+			"-",
+			1,
 			null
 		]
 	},
@@ -257,7 +257,7 @@
 		"tc": "000000",
 		"tbc": "ccff00",
 		"tbd": "ff69b4",
-		"name": "Carrie D",
+		"name": "C arrie D",
 		"rawName": "C arrie D [RAVE Against the Machine]",
 		"flag": "ca",
 		"zwid": 1213260,
@@ -376,17 +376,17 @@
 	},
 	{
 		"category": "C",
-		"events": 4,
-		"points": 80,
+		"events": 5,
+		"points": 102,
 		"tname": "CrushPod",
 		"tc": "000000",
 		"tbc": "faff1e",
 		"tbd": "878484",
-		"name": "Sarah Pax",
+		"name": "SarahPax",
 		"rawName": "SarahPax (CrushPod)",
 		"flag": "us",
 		"zwid": 2210583,
-		"podiums": "gold bronze",
+		"podiums": "gold silver bronze",
 		"upgrades": 0,
 		"results": [
 			5,
@@ -395,7 +395,7 @@
 			"-",
 			3,
 			1,
-			null,
+			2,
 			null
 		]
 	},

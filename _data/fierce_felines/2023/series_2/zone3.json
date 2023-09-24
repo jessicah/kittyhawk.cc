@@ -307,7 +307,7 @@
 		"tc": "000000",
 		"tbc": "faff1e",
 		"tbd": "878484",
-		"name": "Sarah Pax",
+		"name": "SarahPax",
 		"rawName": "SarahPax (CrushPod)",
 		"flag": "us",
 		"zwid": 2210583,
@@ -346,6 +346,31 @@
 			null,
 			null,
 			null,
+			null
+		]
+	},
+	{
+		"category": "C",
+		"events": 1,
+		"points": 25,
+		"tname": "",
+		"tc": "",
+		"tbc": "",
+		"tbd": "",
+		"name": "Suzanne Hazen",
+		"rawName": "Suzanne Hazen",
+		"flag": "us",
+		"zwid": 2959389,
+		"podiums": "gold",
+		"upgrades": 0,
+		"results": [
+			"-",
+			"-",
+			"-",
+			"-",
+			"-",
+			"-",
+			1,
 			null
 		]
 	},

@@ -126,8 +126,8 @@
 	},
 	{
 		"category": "C",
-		"events": 5,
-		"points": 114,
+		"events": 6,
+		"points": 137,
 		"tname": "KittyHawk",
 		"tc": "ffffff",
 		"tbc": "ff00c1",
@@ -145,7 +145,7 @@
 			3,
 			"-",
 			1,
-			null,
+			1,
 			null
 		]
 	},
@@ -326,8 +326,8 @@
 	},
 	{
 		"category": "D",
-		"events": 5,
-		"points": 125,
+		"events": 6,
+		"points": 150,
 		"tname": "Team CRYO-GEN",
 		"tc": "ffffff",
 		"tbc": "009fe3",
@@ -345,7 +345,7 @@
 			1,
 			"-",
 			1,
-			null,
+			1,
 			null
 		]
 	},
