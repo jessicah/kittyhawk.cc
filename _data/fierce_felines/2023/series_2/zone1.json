@@ -127,7 +127,7 @@
 	{
 		"category": "C",
 		"events": 6,
-		"points": 137,
+		"points": 139,
 		"tname": "KittyHawk",
 		"tc": "ffffff",
 		"tbc": "ff00c1",
@@ -136,7 +136,7 @@
 		"rawName": "Jessica Hamilton",
 		"flag": "nz",
 		"zwid": 653395,
-		"podiums": "gold gold silver silver bronze",
+		"podiums": "gold gold gold silver silver bronze",
 		"upgrades": 0,
 		"results": [
 			2,
@@ -336,7 +336,7 @@
 		"rawName": "Vivienne Powe CRYO-GEN",
 		"flag": "au",
 		"zwid": 1320009,
-		"podiums": "gold gold gold gold gold",
+		"podiums": "gold gold gold gold gold gold",
 		"upgrades": 0,
 		"results": [
 			1,

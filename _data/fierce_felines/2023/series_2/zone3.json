@@ -450,6 +450,31 @@
 		]
 	},
 	{
+		"category": "C",
+		"events": 1,
+		"points": 25,
+		"tname": "",
+		"tc": "",
+		"tbc": "",
+		"tbd": "",
+		"name": "L Yd",
+		"rawName": "L Yd",
+		"flag": "us",
+		"zwid": 4750594,
+		"podiums": "gold",
+		"upgrades": 0,
+		"results": [
+			"-",
+			"-",
+			"-",
+			"-",
+			"-",
+			"-",
+			"-",
+			1
+		]
+	},
+	{
 		"category": "B",
 		"events": 1,
 		"points": 25,
