@@ -1,0 +1,27 @@
+[
+	{
+		"category": "B",
+		"events": 1,
+		"points": 50,
+		"tname": "NZBRO ",
+		"tc": "000000",
+		"tbc": "e60000",
+		"tbd": "140e0e",
+		"name": "Carolyn Jenkins",
+		"rawName": "Carolyn Jenkins ",
+		"flag": "nz",
+		"zwid": 1108431,
+		"podiums": "gold",
+		"upgrades": 0,
+		"results": [
+			1,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	}
+]

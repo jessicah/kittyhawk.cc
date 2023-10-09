@@ -1,0 +1,77 @@
+[
+	{
+		"category": "D",
+		"events": 1,
+		"points": 47,
+		"tname": "HERD",
+		"tc": "383c3d",
+		"tbc": "fc6719",
+		"tbd": "383c3d",
+		"name": "Sarah  Smallman",
+		"rawName": "Sarah  Smallman ",
+		"flag": "nz",
+		"zwid": 66585,
+		"podiums": "silver",
+		"upgrades": 0,
+		"results": [
+			2,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	{
+		"category": "D",
+		"events": 1,
+		"points": 50,
+		"tname": "OTR Racing",
+		"tc": "41ad92",
+		"tbc": "000000",
+		"tbd": "006e8d",
+		"name": "Jack Cat  PEPf",
+		"rawName": "Jack Cat [OTR][DDC] PEPf",
+		"flag": "au",
+		"zwid": 3234939,
+		"podiums": "gold",
+		"upgrades": 0,
+		"results": [
+			1,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	{
+		"category": "B",
+		"events": 1,
+		"points": 50,
+		"tname": "SYNERGY ",
+		"tc": "ffffff",
+		"tbc": "040505",
+		"tbd": "ffffff",
+		"name": "Eleanor Dixon",
+		"rawName": "Eleanor Dixon",
+		"flag": "gb",
+		"zwid": 5864618,
+		"podiums": "gold",
+		"upgrades": 0,
+		"results": [
+			1,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	}
+]
