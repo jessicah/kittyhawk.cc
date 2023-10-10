@@ -5,7 +5,38 @@ date: 9/10/2023
 
 <h2>Fierce Felines p/b Kittyhawk</h2>
 
-<h3>Event Information</h3>
+<h3>Contents</h3>
+<ul>
+	<li><a href='#info'>Event Information</a></li>
+	<li>
+		<a href='#zone-1'>Zone 1</a>
+		<ul>
+			<li><a href='#zone-1-individual'>Individual Results</a></li>
+			<li><a href='#zone-1-sprint'>Sprint Queens</a></li>
+			<li><a href='#zone-1-climb'>Queens of the Mountains</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href='#zone-2'>Zone 2</a>
+		<ul>
+			<li><a href='#zone-2-individual'>Individual Results</a></li>
+			<li><a href='#zone-2-sprint'>Sprint Queens</a></li>
+			<li><a href='#zone-2-climb'>Queens of the Mountains</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href='#zone-3'>Zone 3</a>
+		<ul>
+			<li><a href='#zone-3-individual'>Individual Results</a></li>
+			<li><a href='#zone-3-sprint'>Sprint Queens</a></li>
+			<li><a href='#zone-3-climb'>Queens of the Mountains</a></li>
+		</ul>
+	</li>
+</ul>
+
+<hr/>
+
+<h3 id="info">Event Information</h3>
 <p>
 	The <strong>Fierce Felines</strong> is a series by <strong>Kittyhawk
 	Racing</strong>, providing hard racing for
@@ -25,23 +56,12 @@ date: 9/10/2023
 	Previous Series Results: <a href="/fierce/2023/aug-sep">2023 August&mdash;September</a>.
 </p>
 
+<hr/>
+
 <h2 id='results'>League Standings</h2>
 
 <p>Last updated: {{ page.date | date: "%A, %B %e" }}</p>
 
-<h3>Zone 1</h3>
-{% include standings.liquid
-        riders=site.data.fierce_felines.2023.series_3.zone1
-%}
-
-<h3>Zone 2</h3>
-{% include standings.liquid
-        riders=site.data.fierce_felines.2023.series_3.zone2
-%}
-
-<h3>Zone 3</h3>
-{% include standings.liquid
-        riders=site.data.fierce_felines.2023.series_3.zone3
-%}
+{% include_relative oct-nov.html %}
 
 {% include datetime.html %}
